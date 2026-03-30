@@ -7,22 +7,22 @@ class Murk < Formula
   on_macos do
     on_intel do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "553f80591abc851679f21b90551d8fecaf8f467eda4b31b2508bce81bc9e016f"
+      sha256 "6d7eaa274bdebb3c560250192683eb3908dd1c70a4748b08af8d4ada57b43e20"
     end
     on_arm do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "24e988ce3e7b6c4dd4d48c961ba9094d05062d9a0d2f3ff0a802c8eacec87fd0"
+      sha256 "ff142605ffd49d02d0dfdbaac98c46bafc9806d77d07aa99d95f3533b348df41"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "baf1f71b9ea742af5efb2d94b065b4ca02baaf131d52da5f901ddda32a11bcdb"
+      sha256 "011109460234b5266c4d25d6f51610bd9e684281b8676bc38afc3b8ff5c9f6a9"
     end
     on_arm do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e9f0a9daaedd41367d9acdd5fbc7e10beb908b54f6e46ed3381cf68005be6c2b"
+      sha256 "805fe095257ed2bf5563ca8606844a8df04487e33804ca9a7804d88ca6c67829"
     end
   end
 
