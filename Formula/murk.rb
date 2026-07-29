@@ -1,28 +1,28 @@
 class Murk < Formula
   desc "Encrypted secrets manager for developers"
   homepage "https://github.com/iicky/murk"
-  version "0.10.0"
+  version "0.10.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "146b672e7aa7191db6b9b66fecfbd2b605815f8ba4412ba93c09ee04e20563cf"
+      sha256 "ff169bfc3ff51f977e124fabd3af331d810f32a4bdeae1ef42328d6444bc9748"
     end
     on_arm do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "b7539b66e3da1f53f2c4442ae381762eff7d9d640513292751e70338df0e65dc"
+      sha256 "1e33472892bb2d0dc967c43f8b740ccbc889da7d01ac9f16c67fbfbd6b573cf8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e24764600d937ac174e144ca396c614648e8c44bb1f0be7774fd3d51e3bf58ae"
+      sha256 "7a6c95dc7c947c6e9cb8b0b32f43af7810f552f7a8fa517c73430988e349255e"
     end
     on_arm do
       url "https://github.com/iicky/murk/releases/download/v#{version}/murk-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0901d811ddacfbae3e41dffd301a2307e71c7dffe200cdba0acbae992c45cbf2"
+      sha256 "00e9e5d6a27f5f4d5c83e6abc3e70d71e5f51e8e8dcd8558a9a080fea6e2f996"
     end
   end
 
