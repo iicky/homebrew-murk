@@ -1,28 +1,28 @@
 class Murk < Formula
   desc "Encrypted secrets manager for developers"
   homepage "https://github.com/interrupted-inc/murk"
-  version "0.10.2"
+  version "0.10.3"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_intel do
       url "https://github.com/interrupted-inc/murk/releases/download/v#{version}/murk-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "1327cd58de30ba5a0bff4504c1c198d148456ea78ad66a933a4c6c836c924c3d"
+      sha256 "0658239614f95e17b85f40cae014c209c5c64d751e65606ddae791dedaf362c7"
     end
     on_arm do
       url "https://github.com/interrupted-inc/murk/releases/download/v#{version}/murk-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "3b6a7d44bd7f8093de4cf287ba3cbabb1b3b0077d25e71eb038590a353baa435"
+      sha256 "33d4ef5c4a7e57f58810012ec4f1041945ed4988983c39b8c493cc1edb0842d7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/interrupted-inc/murk/releases/download/v#{version}/murk-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "50c4f058741b964a57995e3dfa92f0ecefbc338a5a25978a930b4a2cf11fd7fe"
+      sha256 "f029b6a97c5ec18c9600ceb4d775e373f76467cd55be92874e1f72e9f2d0eafa"
     end
     on_arm do
       url "https://github.com/interrupted-inc/murk/releases/download/v#{version}/murk-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "64d486b7a42c904c6ca0c0ac201dcec81a9fbeae5c44b6a5832f82c1fe361db8"
+      sha256 "9214dc4277963949ffad5cadd64c620b2abbc48ce500f67cae432bba87cd93c8"
     end
   end
 
